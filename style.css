@@ -28,4 +28,22 @@
 
 nav>a {
     margin-left: 50px;
+    color: black;
+}
+
+nav {
+    background-color: white;
+}
+
+/* About */
+
+.about-pic {
+    max-height: 40%;
+    align-self: center;
+}
+
+/* Testimonials */
+
+.test-span {
+    font-style: italic;
 }
