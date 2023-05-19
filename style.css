@@ -1,3 +1,16 @@
+/* Text styles */
+
+.bg-text {
+    color: white;
+}
+
+
+h2 {
+    font-size: 1rem;
+}
+
+
+
 .b-example-divider {
     height: 3rem;
     background-color: rgba(0, 0, 0, .1);
@@ -33,6 +46,39 @@ nav>a {
 
 nav {
     background-color: white;
+}
+
+/* Images */
+
+.bg-image {
+    width: 100%;
+    height: 100%;
+}
+
+.hero-img {
+    background-image: url('../imgs/Hero-br-img.png');
+
+}
+
+.class-img {
+    background-image: url('../imgs/Br-img-3.png');
+
+}
+
+.pricing-img {
+    background-image: url('../imgs/Br-img-2.png');
+
+}
+
+.contact-img {
+    background-image: url('../imgs/Hero-br-img.png');
+
+}
+
+
+.profile-img {
+    border-radius: 99%;
+    height: 100%x;
 }
 
 /* About */
