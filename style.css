@@ -67,3 +67,11 @@ nav {
 .test-span {
     font-style: italic;
 }
+
+/* Cookie modal */
+
+.modal {
+    display: none;
+}
+
+/* Carousel */
