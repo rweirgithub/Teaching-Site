@@ -75,3 +75,8 @@ nav {
 }
 
 /* Carousel */
+
+.caption-black {
+    color: black;
+    max-width: 100%;
+}

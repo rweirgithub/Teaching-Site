@@ -128,9 +128,9 @@
 
 
 
-<!-- Testimonials -->
+<!-- Testimonials (visable above 992px) -->
 
-<div class="container py-3 bg-light" id="tests">
+<div class="container py-3 bg-light testimonials d-none d-lg-block d-xl-block" id="tests">
     <div class="test-header p-3 pb-md-4 mx-auto text-center">
         <h1 class="display-4 fw-normal">Testimonials</h1>
         <h2 class="fs-5 text-muted">Recommendations from my old students</h2>
@@ -138,7 +138,7 @@
     <div class="row row-cols-1 row-cols-md-4 mb-2 text-center">
         <div class="col">
             <div class="card" style="width: 100%;">
-                <img class="card-img-top" src="imgs\Students\student-pic-3.jpeg" alt="Card image cap">
+                <img class="card-img-top" src="imgs\Students\student-pic-1.jpeg" alt="Card image cap">
                 <div class="card-body">
                     <p class="card-text">"I have loved studying with Ross, his classes are always fun and interesting! I am excited for our next class."</p><span class="test-span"> -
                         Sabrina</span>
@@ -155,7 +155,7 @@
         </div>
         <div class="col">
             <div class="card" style="width: 100%;">
-                <img class="card-img-top" src="imgs\Students\student-pic-1.png" alt="Card image cap">
+                <img class="card-img-top" src="imgs\Students\student-pic-3.png" alt="Card image cap">
                 <div class="card-body">
                     <p class="card-text">"Ross has helped me to practise for my visa exam. I feel much more confident than before."</p><span class="test-span"> - Ben</span>
                 </div>
@@ -172,7 +172,58 @@
     </div>
 </div>
 
-<!-- Carousel -->
+<!-- Testimonal carousel (visable below 992px) -->
+
+<div id="carouselIndicators" class="carousel slide d-lg-none d-md-block d-sm-block d-xs-block">
+    <div class="test-header p-3 pb-md-4 mx-auto text-center">
+        <h1 class="display-4 fw-normal">Testimonials</h1>
+        <h2 class="fs-5 text-muted">Recommendations from my old students</h2>
+    </div>
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="imgs\Students\student-pic-1.jpeg" class="w-100 carousel" alt="...">
+            <div class="carousel-caption">
+                <h5>Sabrina</h5>
+                <p>"I have loved studying with Ross, his classes are always fun and interesting! I am excited for our next class."</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="imgs\Students\student-pic-2.png" class="w-100 carousel" alt="...">
+            <div class="carousel-caption">
+                <h5 class="caption-black">Rihanna</h5>
+                <p class="caption-black">"Ross is professional and thorough, always managing to turn boring subjects into interesting ones."</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="imgs\Students\student-pic-3.png" class="w-100 carousel" alt="...">
+            <div class="carousel-caption">
+                <h5>Ben</h5>
+                <p>"Ross has helped me to practise for my visa exam. I feel much more confident than before."</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="imgs\Students\student-pic-4.png" class="w-100 carousel" alt="...">
+            <div class="carousel-caption">
+                <h5>Winnie</h5>
+                <p>"Teacher Ross is funny. I like English now, and I did very well in my exam last week. Thank you, Teacher"</p>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
 
 
 <!-- Prices -->
@@ -333,7 +384,7 @@
                 <h1 class="modal-title fs-5" id="staticBackdropLabel">Cookies</h1>
             </div>
             <div class="modal-body">
-                <p>We don't collect your data on this website as this is just a portfolio site for <a href="https://raweir.com/" target="_blank">RAWeir</a> You can keep your cookies to yourself,
+                <p>We don't collect your data on this website as this is just a portfolio site for <a href="https://raweir.com/" target="_blank">RAWeir</a>. You can keep your cookies to yourself,
                     we
                     are not hungry.
                 </p>
@@ -366,6 +417,8 @@
     </ul>
 </footer>
 </div>
+
+<!-- Scripts -->
 
 <script src="script.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
